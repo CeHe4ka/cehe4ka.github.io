@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="галочка.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Глебов Арсений Николаевич</title>
+
+    <style>
+        /* чтобы во вложенных списках были кружки */
+        ul ul {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">Резюме</a>
+                <a class="navbar-brand" href="#exp">Опыт работы</a>
+                <a class="navbar-brand" href="#skills">Профессиональные навыки</a>
+                <a class="navbar-brand" href="#contacts">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up">Наверх</i>
+        </button>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="photo/avatar.jpg" alt="Глебов Арсений Николаевич" class="img-thumbnail" width="250px">
+                <h1>Глебов Арсений Николаевич</h1>
+                <p>Junior python developer</p>
+                <p>Занятость: полная, частичная</p>
+                <p>Цель поиска работы: оплачиваемая стажировка и работа в компании</p>
+            </div>
+            <div class="col-md-8">
+                <h2 id="about">Личные данные</h2>
+                <ul>
+                    <li>Дата рождения: 23.10.2004 (20 лет)</li>
+                    <li>Место жительства: г. Москва, м. Отрадное</li>
+                    <li>Гражданство: РФ</li>
+                    <li>Студент Российского Государственного Социального университета.</li>
+                </ul>
+
+                <h2 id="edu">Образование</h2>
+                <ul>
+                    <li>2022 – настоящее время – Российский Государственный Социальный университет (высшее образование)
+                        по специальности <b>«Информационные системы и технологии»</b></li>
+                    <li>2011 – 2022 гг. – МОУСОШ №22 , г.Орехово-Зуево</li>
+                </ul>
+
+                <h2 id="about">Дополнительное образование</h2>
+                <ul>
+                    <li>2022 г. – настоящее время – курс <b>«Start ML»</b> от <b>karpov.courses</b></li>
+                </ul>
+
+                <h2 id="exp">Опыт в разработке</h2>
+                <ul>
+                    <li>Компания: <b>ООО «Аналитика коммуникации»</b>
+                        <br> Период работы: <b>апрель 2024 г. – июль 2024 г. (4 мес)</b>,
+                        <br> Должность: <b>Python-разработчик</b>,
+                        <ul>
+                            <li>Участвовал в командной разработке образовательного веб-приложения.</li>
+                            <li>Реализовал backend-логику на Django (регистрация и аутентификация пользователей).</li>
+                            <li>Работал с профилями и рейтингами, интеграция с PostgreSQL.</li>
+                            <li>Настроил API и протестировал ключевые сценарии.</li>
+                        </ul>
+                    </li>
+                    <li><b>Стартап StudentSays</b>
+                        <ul>
+                            <li>Работал в команде над стартапом StudentSays, где помогал с  Backend-разработкой на Django (создавал простые GET/POST-запросы, тестировал API через Postman)</li> 
+                            <li>Участвовал в разработке мобильного приложения на React Native (создание экранов, интеграция с API)</li> 
+                        </ul>
+                    </li>
+                    <li><b>Созданные проекты</b>
+                        <ul>
+                            <li>Иммерсивное приложение на Unity 3D для олимпиады</li>
+                            <li>Создание 3D моделей персонажей в Blender</li>
+                            <li>Программа для анализа шахматных партий («читы» для шахмат)</li>
+                            <li>Сайты-визитки на HTML, CSS, JS</li>
+                            <li>Интерфейсы приложений в Figma (веб и мобильные версии)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2 id="skills">Профессиональные навыки</h2>
+                <ul>
+                    <li>Основной язык программирования: Python.</li>
+                    <li>Работа с данными: Pandas, NumPy, Matplotlib, Jupyter Notebook.</li>
+                    <li>Работа в средах Jupyter Notebook, PyCharm, Visual Studio.</li>
+                    <li>Разработка API сервисов на FastAPI.</li>
+                    <li>Работа с базами данных: PostgreSQL, MySQL</li>
+                    <li>Работа с SQL запросами.</li>
+                    <li>Работа с Git (GitHub и GitLab).</li>
+                    <li>Создание Телеграм ботов на Python.</li>
+                    <li>Умение работать с Linux-системами.</li>
+                    <li>Создание приложений на платформе Android с помощью Android Studio.</li>
+                    <li>Создание сайтов с использованием HTML, CSS, JavaScript, уверенное использование Фреймворка
+                        Bootstrap.</li>
+                    <li>Владение Photoshop и Illustrator.</li>
+                    <li>Создание иммерсивных проектов с помощью Unity.</li>
+                </ul>
+
+                <h2>О себе</h2>
+                <ul>
+                    <li>Высокая мотивация к обучению и развитию в IT.</li>
+                    <li>Быстро осваиваю новые технологии.</li>
+                    <li>Имею логическое мышление и умение разбивать задачу на этапы.</li>
+                </ul>
+
+                <h2 id="contacts">Контакты</h2>
+                <p>
+                    Телефон: <br>
+                    Email: <a href="mailto:DiachkovAlex97@yandex.ru"></a><br>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="func.js"></script>
+</body>
+</html>
